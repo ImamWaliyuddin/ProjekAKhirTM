@@ -1,7 +1,7 @@
 import os
 def getKamus():
     current_directory = os.getcwd()
-    with open(current_directory+'/StemLemma/dictionary.txt') as f:
+    with open(current_directory+'\\dictionary.txt') as f:
         kamus = f.read().splitlines() 
     return kamus
 
